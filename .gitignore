@@ -1,0 +1,34 @@
+# Output files
+veracode_target_urls.json
+
+# Claude Code context
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (extra safety)
+.env
+credentials
+*.pem
+*.key
